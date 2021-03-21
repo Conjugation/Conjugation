@@ -12,3 +12,5 @@ Free French conjugation app, built&nbsp;for French language learners, for every 
 - French verb
 - French verbs
 - French verb conjugator
+- French conjugation app
+- French conjugation app ios
