@@ -14,3 +14,11 @@ Free French conjugation app, built&nbsp;for French language learners, for every 
 - French verb conjugator
 - French conjugation app
 - French conjugation app ios
+- App for french conjugation
+- App for french verb conjugation
+- Best app to learn french conjugation
+- Best french conjugation app
+- Conjugation of app in french
+- French conjugation app free
+- French conjugation app help
+- French conjugation app offline
