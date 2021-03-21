@@ -1,3 +1,35 @@
 .fa {
-  color : black !important;
+  color : white !important;
 }
+
+.fa-heart {
+	color: red !important;
+}
+
+section.features .feature-item i {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 15px;
+    /*background: linear-gradient(to left, #7b4397, #da404a);*/
+    background: #48b0c7;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+section.contact ul.list-social li.social-instagram a{background-color:#a33f9f}
+
+section.contact ul.list-social li.social-instagram a:hover{background-color:#d24736}
+
+footer{padding:25px 0;text-align:center;color:rgba(255,255,255,.3);background-color:#222}
+
+footer p
+{font-size:12px;margin:0}
+
+footer ul{margin-bottom:0}
+
+footer ul li a{font-size:12px;color:rgba(255,255,255,.3)}
+
+footer ul li a:hover,footer ul li a:focus,footer ul li a:active,footer ul li a.active{text-decoration:none}
