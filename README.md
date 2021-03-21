@@ -4,6 +4,8 @@ Free French conjugation app, built&nbsp;for French language learners, for every 
 
 ![Drag Racing](https://github.com/Conjugation/Conjugation/blob/bbedd40d98665499edf1b8ee83bd30cd3e9fd3c7/assets/img/logo.png)
 
+<!-- http://stackoverflow.com/questions/12906502/is-it-possible-to-track-click-throughs-from-iphone-smart-banner -->
+
 - Conjugation app
 - French verb audio
 - Francais anglais conjugaison
