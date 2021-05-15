@@ -7,8 +7,9 @@ Free French conjugation app, built&nbsp;for French language learners, for every 
 <!-- http://stackoverflow.com/questions/12906502/is-it-possible-to-track-click-throughs-from-iphone-smart-banner -->
 
 - Conjugation app
+- French conjugation
+- French verbs trainer
 - French verb audio
-- Francais anglais conjugaison
 - French conjugation
 - French verb with translation
 - French verb
@@ -18,7 +19,6 @@ Free French conjugation app, built&nbsp;for French language learners, for every 
 - French conjugation app ios
 - App for french conjugation
 - App for french verb conjugation
-- Best app to learn french conjugation
 - Best french conjugation app
 - Conjugation of app in french
 - French conjugation app free
