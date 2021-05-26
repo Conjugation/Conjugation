@@ -53,6 +53,9 @@
 </script>
 </head>
 
+
+<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="56">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#page-top">Conjugation.app</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler float-end" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
@@ -67,114 +70,22 @@
     </nav>
     <!-- <header class="masthead" style="background:url('assets/img/bg-pattern.png'), linear-gradient(to left, #7b4397, #dc2430);height:100%;"> -->
 
-        <header class="masthead" style="background:url('https://conjugation.app/assets/img/background.JPG');height:100%;">
+        <header class="masthead">
 
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-lg-7 my-auto">
-                    <div class="mx-auto header-content">
-                        <h1 class="mb-5">Conjugation.app is free French conjugation app, built&nbsp;for French language learners, for every level.</h1><a class="btn btn-outline-warning btn-xl" role="button" href="#download">Want to see it Now!</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 my-auto">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device" style="background-image:url('assets/img/iphone_6_plus_white_port.png');">
-                                <div class="screen"><img class="img-fluid" src="https://conjugation.app/assets/img/light_detail.PNG"></div>
-                                <div class="button"></div>
-                            </div>
-                        </div>
-                    </div><!-- Start: Mockup iPhone 6 -->
-                    <div class="iphone-mockup"></div><!-- End: Mockup iPhone 6 -->
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="text-center bg-primary download" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <h2 class="section-heading">Stop waiting and start learning now.</h2>
-                    <p>Conjugation.app is available on iOS device! Download now to get started!</p>
-                    <div class="badges"> <a class="badge-link" href="https://apps.apple.com/us/app/id1469234408"><img src="assets/img/app-store-badge.svg"></a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="features" class="features">
-        <div class="container">
-            <div class="text-center section-heading">
-                <h2>Features</h2>
-                <p class="text-muted">In addition to above statement Conjugation app include:</p>
-                <hr>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 my-auto">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device" style="background-image:url('assets/img/iphone_6_plus_white_port.png');">
-                                <div class="screen"><img class="img-fluid" src="https://conjugation.app/assets/img/dark_detail.PNG"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8 my-auto">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="feature-item"><i class="fa fa-volume-up text-primary"></i>
-                                    <h3>Audio pronunciation&nbsp;</h3>
-                                    <p class="text-muted">Never mispronounce another word </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                        <div class="feature-item"><i class="fa fa-id-badge text-primary"></i>
-                                    <h3>Voice ID</h3>
-                                    <p class="text-muted">Switch between voices ( Female and Male )</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-item"><i class="fa fa-globe text-primary"></i>
-                                    <h3>Translation</h3>
-                                    <p class="text-muted">Make sure you understand what you're learning</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-item"><i class="fa fa-search text-primary"></i>
-                                    <h3>Verb search</h3>
-                                    <p class="text-muted">Find the verb you want to conjugate</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="cta" style="background-image:url('https://conjugation.app/assets/img/bg-cta.jpg');">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Are you on social media?<br>Me too<br></h2><a class="btn btn-outline-warning btn-xl" role="button" href="#contact">go socialize</a>
-            </div>
-        </div>
-        <div class="overlay"></div>
-    </section>
-    <section class="bg-primary contact" id="contact">
-        <div class="container">
-            <h2><span>We&nbsp;</span><i class="fa fa-heart"></i><span>&nbsp;Socializing!</span></h2>
-            <ul class="list-inline list-social">
+            <div id="instafeed"></div>
 
-                <li class="list-inline-item social-instagram"><a href="https://www.instagram.com/conjugation.app/"><i class="fa fa-instagram"></i></a></li>
+<script type="text/javascript">
 
-                <li class="list-inline-item social-twitter"><a href="https://twitter.com/conjugationapp"><i class="fa fa-twitter"></i></a></li>
+function load_home() {
+     document.getElementById("content").innerHTML='https://linkin.bio/conjugationapp';
+}
+</script>
 
-                <li class="list-inline-item social-facebook"><a href="https://www.facebook.com/Conjugationapp-101105608722440"><i class="fa fa-facebook"></i></a></li>
+        </header>
 
+   
 
-      <!--           <li class="list-inline-item social-google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-            </ul>
-        </div>
-    </section>
+   
     <footer>
         <div class="container">
             <p>© Conjugation.app 2021. All Rights Reserved.</p>
