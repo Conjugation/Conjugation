@@ -3,6 +3,10 @@
 	xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://conjugation.app/</loc>
-  <lastmod>2021-03-03T14:49:28+00:00</lastmod>
+  <loc>https://conjugation.app/#download</loc>
+  <loc>https://conjugation.app/#features</loc>
+  <loc>https://conjugation.app/#contact</loc>
+  <loc>https://apps.apple.com/us/app/id1469234408</loc>
+  <lastmod>2021-05-26T13:55:28+00:00</lastmod>
 </url>
 </urlset>
